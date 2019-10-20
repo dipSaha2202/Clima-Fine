@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="default_location">Fetching</string>
+    <string name="default_temp">NA</string>
+    <string name="change_city_description">Click Here to Change City</string>
+    <string name="weather_description">This is the weather symbol</string>
+    <string name="back_button_description">Dismiss Change City Screen</string>
+    <string name="get_weather">Change City</string>
+    <string name="default_query">Enter city name</string>
+
+    <string name="pressure">Pressure: </string>
+    <string name="humidity">Humidity: </string>
+
+</resources>
