@@ -21,7 +21,6 @@
         android:padding="5dp"
         android:contentDescription="@string/back_button_description"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
     <EditText
