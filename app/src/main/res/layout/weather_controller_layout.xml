@@ -9,7 +9,7 @@
     android:paddingRight="10dp"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/weather_background"
-    tools:context="com.londonappbrewery.climapm.WeatherController">
+    tools:context="com.dipweather.climafl.WeatherController">
 
 
     <TextView
@@ -23,9 +23,7 @@
         android:padding="2dp"
         android:layout_below="@+id/changeCityButton"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
         android:layout_alignBottom="@+id/tempTV"
         android:gravity="center"/>
 
@@ -38,7 +36,6 @@
         android:text="@string/default_temp"
         android:id="@+id/tempTV"
         android:layout_below="@+id/changeCityButton"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>
 
     <ImageButton
@@ -49,7 +46,6 @@
         android:contentDescription="@string/change_city_description"
         android:background="@null"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>
 
     <FrameLayout
@@ -58,7 +54,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="false"
-        android:layout_alignParentLeft="false"
         android:id="@+id/frameLayout"
         >
 
@@ -82,10 +77,8 @@
         android:padding="2dp"
         android:layout_below="@+id/frameLayout"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_marginStart="5dp"
         android:id="@+id/textOfPressure"
-        android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:gravity="center"/>
     <TextView
@@ -98,10 +91,8 @@
         android:textSize="30sp"
         android:padding="2dp"
         android:layout_below="@+id/frameLayout"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
         android:layout_alignTop="@+id/textOfPressure"
         android:gravity="center"/>
 
@@ -109,7 +100,6 @@
         android:id="@+id/txtHumidity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textOfHumidity"
         android:layout_alignStart="@+id/textOfHumidity"
         android:layout_below="@+id/textOfHumidity"
         android:gravity="center"
@@ -122,7 +112,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textOfPressure"
         android:layout_alignStart="@+id/textOfPressure"
         android:layout_below="@+id/textOfHumidity"
         android:gravity="center"
